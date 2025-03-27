@@ -1,0 +1,78 @@
+export const divisions = [
+  { label: "ঢাকা", value: "dhaka" },
+  { label: "চট্টগ্রাম", value: "chattogram" },
+  { label: "রাজশাহী", value: "rajshahi" },
+  { label: "খুলনা", value: "khulna" },
+  { label: "বরিশাল", value: "barishal" },
+  { label: "সিলেট", value: "sylhet" },
+  { label: "রংপুর", value: "rangpur" },
+  { label: "ময়মনসিংহ", value: "mymensingh" },
+];
+
+export const districts = [
+  { label: "ঢাকা", value: "dhaka", divisionId: "dhaka" },
+  { label: "গাজীপুর", value: "gazipur", divisionId: "dhaka" },
+  { label: "নারায়ণগঞ্জ", value: "narayanganj", divisionId: "dhaka" },
+  { label: "মুন্সীগঞ্জ", value: "munshiganj", divisionId: "dhaka" },
+  { label: "শ্রীপুর", value: "sripur", divisionId: "dhaka" },
+  { label: "নরসিংদী", value: "narsingdi", divisionId: "dhaka" },
+  { label: "কিশোরগঞ্জ", value: "kishoreganj", divisionId: "dhaka" },
+  { label: "মাদারীপুর", value: "madhabdi", divisionId: "dhaka" },
+  { label: "ভোলা", value: "bhola", divisionId: "dhaka" },
+  { label: "বরগুনা", value: "borguna", divisionId: "dhaka" },
+
+  { label: "চট্টগ্রাম", value: "chattogram", divisionId: "chattogram" },
+  { label: "কক্সবাজার", value: "coxsbazar", divisionId: "chattogram" },
+  { label: "কুমিল্লা", value: "comilla", divisionId: "chattogram" },
+  { label: "ফেনী", value: "feni", divisionId: "chattogram" },
+  { label: "খাগড়াছড়ি", value: "khagrachari", divisionId: "chattogram" },
+  {
+    label: "ব্রাহ্মণবাড়িয়া",
+    value: "brahmanbaria",
+    divisionId: "chattogram",
+  },
+  { label: "চাঁদপুর", value: "chandpur", divisionId: "chattogram" },
+  { label: "মহেশখালি", value: "maheskhali", divisionId: "chattogram" },
+  { label: "লক্ষীপুর", value: "lakshmipur", divisionId: "chattogram" },
+
+  { label: "রাজশাহী", value: "rajshahi", divisionId: "rajshahi" },
+  { label: "নওগাঁ", value: "naogaon", divisionId: "rajshahi" },
+  {
+    label: "চাঁপাই নবাবগঞ্জ",
+    value: "chapainawabganj",
+    divisionId: "rajshahi",
+  },
+  { label: "বগুড়া", value: "bogura", divisionId: "rajshahi" },
+  { label: "পাবনা", value: "pabna", divisionId: "rajshahi" },
+  { label: "নাটোর", value: "nator", divisionId: "rajshahi" },
+  { label: "সিরাজগঞ্জ", value: "sirajganj", divisionId: "rajshahi" },
+  { label: "যশোর", value: "jashore", divisionId: "rajshahi" },
+
+  { label: "খুলনা", value: "khulna", divisionId: "khulna" },
+  { label: "বাগেরহাট", value: "bagherhat", divisionId: "khulna" },
+  { label: "যশোর", value: "jashore", divisionId: "khulna" },
+  { label: "সাতক্ষীরা", value: "satkhira", divisionId: "khulna" },
+  { label: "মেহেরপুর", value: "meherpur", divisionId: "khulna" },
+
+  { label: "বরিশাল", value: "barishal", divisionId: "barishal" },
+  { label: "পটুয়াখালী", value: "patuakhali", divisionId: "barishal" },
+  { label: "ভোলা", value: "bhola", divisionId: "barishal" },
+  { label: "বরগুনা", value: "borguna", divisionId: "barishal" },
+  { label: "পিরোজপুর", value: "pirojpur", divisionId: "barishal" },
+
+  { label: "সিলেট", value: "sylhet", divisionId: "sylhet" },
+  { label: "মৌলভীবাজার", value: "maulvibazar", divisionId: "sylhet" },
+  { label: "হবিগঞ্জ", value: "habiganj", divisionId: "sylhet" },
+  { label: "নেত্রকোনা", value: "netrokona", divisionId: "sylhet" },
+
+  { label: "রংপুর", value: "rangpur", divisionId: "rangpur" },
+  { label: "গাইবান্ধা", value: "gaibandha", divisionId: "rangpur" },
+  { label: "দিনাজপুর", value: "dinajpur", divisionId: "rangpur" },
+  { label: "পঞ্চগড়", value: "panchagarh", divisionId: "rangpur" },
+  { label: "লালমনিরহাট", value: "lalmonirhat", divisionId: "rangpur" },
+  { label: "কুড়িগ্রাম", value: "kurigram", divisionId: "rangpur" },
+
+  { label: "ময়মনসিংহ", value: "mymensingh", divisionId: "mymensingh" },
+  { label: "নেত্রকোনা", value: "netrokona", divisionId: "mymensingh" },
+  { label: "জামালপুর", value: "jamalpur", divisionId: "mymensingh" },
+];
